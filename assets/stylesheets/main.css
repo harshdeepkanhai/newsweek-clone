@@ -9,9 +9,8 @@ body {
     background: #f4f5f6;
 }
 
-.container-lg {
+.header-top {
     background: #f72210;
-    color: #fff;
 
 }
 
@@ -20,8 +19,41 @@ body {
     width: 24.75em;
 }
 
+.header-bottom::before {
+    width: 4.125em;
+    position: absolute;
+    top:0;
+    right: 0;
+    content: "";
+    background-color: #f72210;
+    border-left: 0.75em solid white;
+    border-top: 0.813em solid #f72210;
+
+}
+
+.navbar-toggler {
+    display: none;       
+}
+
+.nav-item {
+    font-size: 14px;
+    line-height: 14px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.line-divider {
+    content: "";
+    height: 2px;
+    background-color: aquamarine;
+}
+
 @media only screen and (max-width: 992px) {
     .logo {
         width: 10.75em
+    }
+    .navbar-toggler {
+    display: inline;
     }
 }

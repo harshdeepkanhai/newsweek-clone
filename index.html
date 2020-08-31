@@ -16,7 +16,7 @@
 
 <body>
     <header class="header">
-        <div class="container-lg">
+        <div class="container-lg header-top text-white">
             <div class="d-flex py-2 align-items-end justify-content-between">
                 <div class="left-top-header d-none d-lg-block">
                     <div class="weather">
@@ -39,9 +39,45 @@
                             </g>
                         </svg>
                     </a></div>
-                <div class="buttons"><button class="btn text-white text-uppercase">Login</button> <button class="btn bg-warning text-uppercase rounded-pill">Subscription</button></div>
+                <div class="buttons"><button class="btn text-white text-uppercase">Login</button> <button class="btn bg-warning text-uppercase rounded-pill">Subscription</button>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars text-white"></i>
+                      </button></div>
+                
             </div>
+            
         </div>
+        <nav class="header-bottom navbar container-lg d-none d-lg-flex justify-content-between  navbar-expand-lg navbar-light bg-white">
+            <ul class="navbar-nav">
+                <li class="nav-item active border-right"><a class="nav-link" ref="#">U.S</a> </li>
+                <li class="nav-item active border-right"><a class="nav-link" ref="#">World</a> </li>
+                <li class="nav-item active border-right"><a class="nav-link" ref="#">Business</a> </li>
+                <li class="nav-item  active border-right"><a class="nav-link" ref="#">Tech & Science</a> </li>
+                <li class="nav-item  active border-right"><a class="nav-link" ref="#">Culture</a> </li>
+                <li class="nav-item  active border-right"><a class="nav-link" ref="#">Newsgeek</a> </li>
+                <li class="nav-item  active border-right"><a class="nav-link" ref="#">Sports</a></li>
+                <li class="nav-item  active border-right"><a class="nav-link" ref="#">Health</a></li>
+                <li class="nav-item  active border-right"><a class="nav-link" ref="#">The Debate</a></li>
+                <li class="nav-item  active border-right"><a class="nav-link" ref="#">Vantage</a></li>
+                <li class="nav-item active"><a class="nav-link" ref="#">Weather</a></li>
+                
+            </ul>
+            <form class="form-field d-flex justify-content-lg-start form-inline">
+                <input class="search-input form-control p-0 border-0" type="search" placeholder="Search" />
+                <button class="search-btn btn" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </nav>
+        <nav class="header-bottom-2 navbar border-top container-lg d-none d-lg-flex justify-content-between  navbar-expand-lg navbar-light bg-white">
+            <ul class="navbar-nav">
+                <li class="nav-item active border-right"><a class="nav-link" ref="#">Trending</a> </li>
+                <li class="nav-item border-right"><a class="nav-link" ref="#">Donald Trump</a> </li>
+                <li class="nav-item border-right"><a class="nav-link" ref="#">Joe Biden</a> </li>
+                <li class="nav-item border-right"><a class="nav-link" ref="#">China</a> </li>
+                <li class="nav-item border-right"><a class="nav-link" ref="#">Coronavirus</a> </li>
+                <li class="nav-item"><a class="nav-link" ref="#">2020 Election</a> </li>
+                
+            </ul>
+        </nav>
     </header>
     <main></main>
     <footer></footer>
