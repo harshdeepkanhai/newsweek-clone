@@ -91,6 +91,24 @@ body {
     background-color: #ffffffe6;
     z-index: 1;
 }
+
+.sticky {
+    position: sticky;
+    bottom: 0;
+}
+
+.image {
+    width: 95px;
+    margin-right: 15px;
+}
+
+.headshot  {
+    width: 70px;
+}
+ .headshot img {
+     width: 100%;
+ }
+
 @media only screen and (max-width: 992px) {
     .logo {
         width: 10.75em
