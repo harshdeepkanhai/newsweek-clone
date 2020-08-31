@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.header {
+    background: #f72210;
+    color: #fff;
+}
+
+.logo {
+    fill: #fff;
+    width: 24.75em;
+}
+
+@media only screen and (max-width: 992px) {
+    .logo {
+        width: 10.75em
+    }
+}
