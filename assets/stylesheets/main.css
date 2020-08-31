@@ -63,10 +63,10 @@ body {
     position: relative;
 
 }
-
+/* 
 .content-auto {
     content-visibility: auto;
-}
+} */
 
 .featured-stories .category {
     position: absolute;
@@ -98,4 +98,8 @@ body {
     .navbar-toggler {
     display: inline;
     }
+}
+
+@media only screen and (max-width: 768px) {
+
 }
