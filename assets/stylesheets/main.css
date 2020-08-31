@@ -9,6 +9,10 @@ body {
     background: #f4f5f6;
 }
 
+.container-fluid {
+    max-width: 1310px;
+}
+
 .header-top {
     background: #f72210;
 
@@ -35,9 +39,14 @@ body {
     display: none;       
 }
 
+
+.img-full {
+    width: 100%;
+}
+
 .nav-item {
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 19px;
+    line-height: 24px;
     color: #000;
     font-weight: bold;
     text-decoration: none;
@@ -49,6 +58,39 @@ body {
     background-color: aquamarine;
 }
 
+.featured-stories,
+.top-story {
+    position: relative;
+
+}
+
+.content-auto {
+    content-visibility: auto;
+}
+
+.featured-stories .category {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin:0;
+    padding: 8px 15px 9px;
+    color: #f72210;
+    text-transform: uppercase;
+    background-color: #ffffffe6;
+    z-index: 1;
+}
+
+.top-story .category {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin:0;
+    padding: 8px 15px 9px;
+    color: #f72210;
+    text-transform: uppercase;
+    background-color: #ffffffe6;
+    z-index: 1;
+}
 @media only screen and (max-width: 992px) {
     .logo {
         width: 10.75em
