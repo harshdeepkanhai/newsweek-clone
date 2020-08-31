@@ -5,9 +5,14 @@
 
 }
 
-.header {
+body {
+    background: #f4f5f6;
+}
+
+.container-lg {
     background: #f72210;
     color: #fff;
+
 }
 
 .logo {
