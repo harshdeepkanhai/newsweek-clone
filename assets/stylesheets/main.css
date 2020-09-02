@@ -63,7 +63,8 @@ body {
 
 .featured-stories,
 .top-story,
-.col-item
+.col-item,
+.mag-start
  {
     position: relative;
 
@@ -73,30 +74,9 @@ body {
     content-visibility: auto;
 } */
 
-.featured-stories .category {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin:0;
-    padding: 8px 15px 9px;
-    color: #f72210;
-    text-transform: uppercase;
-    background-color: #ffffffe6;
-    z-index: 1;
-}
-
-.col-item .category {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin:0;
-    padding: 8px 15px 9px;
-    color: #f72210;
-    text-transform: uppercase;
-    background-color: #ffffffe6;
-    z-index: 1;
-}
-
+.featured-stories .category,
+.mag-start .category,
+.col-item .category,
 .top-story .category {
     position: absolute;
     bottom: 0;
@@ -108,6 +88,7 @@ body {
     background-color: #ffffffe6;
     z-index: 1;
 }
+
 
 .sticky {
     position: sticky;
@@ -155,6 +136,10 @@ body {
     right: 0;
 }
 
+.bg-grey {
+    background-color: #d9d9d9;
+}
+
  .d-vs {
      position: relative;
      z-index: 1;
@@ -180,6 +165,38 @@ body {
     margin-right: 15px;
 }
 
+.mag-cat {
+    font: bold 16px/26px "Roboto Condensed",sans-serif;
+    padding: 0 7px;
+    background-color: #f72210;
+    color: white;
+    margin-right: 7px;
+}
+
+a {
+    color:inherit;
+}
+
+.cat {
+    font: bold 16px/26px "Roboto Condensed",sans-serif;
+    color: #f72210;
+}
+
+.mag-image-item {
+    position: relative;
+    padding-bottom: 100%;
+    overflow: auto;
+}
+
+.mag-img {
+    transform: translate(-50%,0%);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    max-width: inherit;
+}
 
 @media only screen and (max-width: 992px) {
     .logo {
