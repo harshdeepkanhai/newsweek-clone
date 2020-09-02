@@ -276,6 +276,34 @@ a {
     margin-top: 11px;
 }
 
+.footer {
+    background: #fff;
+}
+
+.footer-top .brand svg {
+    display: block;
+    width: 236px;
+    height: 36px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    fill: #f72210;
+}
+
+.copyright {
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 12px;
+
+}
+
+.social li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+
 @media only screen and (max-width: 992px) {
     .logo {
         width: 10.75em
