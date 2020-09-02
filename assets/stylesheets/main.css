@@ -97,6 +97,10 @@ body {
     bottom: 0;
 }
 
+.subscribe-title {
+    color: #f72210;
+}
+
 .image {
     width: 95px;
     margin-right: 15px;
@@ -209,6 +213,67 @@ a {
 
 .magazine .bottom {
     padding-top: 30px;
+}
+
+.sub-image {
+    position: relative;
+    padding-bottom: 13px;
+    padding-right: 90px
+}
+
+
+.mag-thumb {
+    width: 170px;
+    height: 228px;
+}
+
+.mag-thumb.prev{
+    height: auto;
+}
+
+.mag-thumb.current {
+    position: absolute;
+    top: 13px;
+    left: 80px;
+}
+
+.btn-red {
+    background: #f72210;
+}
+
+.news-img {
+    background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png") center center/cover no-repeat;
+    width: 48%;
+    max-width: 191px;
+}
+
+.news-info {
+    padding: 30px;
+}
+
+.signup input {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+}
+
+.form-text {
+    color: #555;
+    font-size: 14px;
+    font-family: "Helvetica",sans-serf;
+    background-color: white;
+    border: 1px solid #e0e1e1;
+    text-indent: 9px;
+}
+
+
+.form-submit {
+    cursor: pointer;
+    font-size: 0;
+    font-family: "Roboto Condensed",sans-serif;
+    background: url("https://g.newsweek.com/www/images/free-sign-up.svg") center/108px no-repeat #f61602;
+    border-radius: 3px;
+    margin-top: 11px;
 }
 
 @media only screen and (max-width: 992px) {
