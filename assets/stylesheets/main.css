@@ -32,6 +32,7 @@ a:hover {
 
 .container-fluid {
   max-width: 1310px;
+  margin: 0 auto;
 }
 
 .block-title {
