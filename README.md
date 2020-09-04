@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/harshdeepkanhai/newsweek-clone/master/index.html)
+[Live Demo Link](https://raw.githack.com/harshdeepkanhai/newsweek-clone/feature/index.html)
 
 
 
